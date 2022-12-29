@@ -64,7 +64,7 @@ Stack9 = ["Q","P","D","S","V"]
 
 STACKS = [Stack1,Stack2,Stack3,Stack4,Stack5,Stack6,Stack7,Stack8,Stack9]
 
-with open("Day 5.input") as file:
+with open("Input/Day 5") as file:
     Moves = [i for i in file.read().strip().split("\n")]
     for Move in Moves:
         countMoves = countMoves + 1
